@@ -4,7 +4,7 @@ path="/".join(temp.split("\\"))+"/"     # "\\" bacause "\" give an error
 n_name=input("Enter the new comon file name\n")
 format=""
 try:
-    format=input("file format\n")
+    format=input("Enter file format if needed\n")
 except:
     pass
 i=1
